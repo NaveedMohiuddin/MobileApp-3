@@ -122,3 +122,12 @@ We will be testing your application by building and running it as either a nativ
 
 The minimum screen size we will test on is 320x568 logical pixels (iPhone 5), and the maximum screen size we will test on is 1920x1080 logical pixels (1080p). Your app should be responsive to and display correctly (without overflow errors) on all screen sizes in between.
 
+
+## Result
+![Example profile page](assets/images/Result1.png)
+![Example profile page](assets/images/Result2.png)
+![Example profile page](assets/images/Result3.png)
+![Example profile page](assets/images/Result4.png)
+![Example profile page](assets/images/Result5.png)
+![Example profile page](assets/images/Result6.png)
+![Example profile page](assets/images/Result7.png)

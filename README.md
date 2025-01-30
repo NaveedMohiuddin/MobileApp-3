@@ -1,7 +1,13 @@
 # CS 442 MP3: Flashcards
 
 ## 1. Overview
+To run this mobile App in your PC clone this repository and install the required packages and run in terminal 
+```flutter pub get``` 
+```flutter run```
 
+This Mobile App is built according to the below requirements 
+
+## Requirements
 For this machine problem, your task is to implement a multi-page application that allows users to create, edit, and manage decks of two-sided flashcards (with nominal “questions” and “answers” on the two sides), and to run quizzes using cards drawn from a chosen deck.
 
 Deck and flashcard information will be persisted to a local database, and the user interface should be responsive to changes in screen size.
@@ -116,28 +122,3 @@ We will be testing your application by building and running it as either a nativ
 
 The minimum screen size we will test on is 320x568 logical pixels (iPhone 5), and the maximum screen size we will test on is 1920x1080 logical pixels (1080p). Your app should be responsive to and display correctly (without overflow errors) on all screen sizes in between.
 
-## 4. Grading
-
-This machine problem is worth 68 points. Your grade will be based on the following criteria:
-
-- 12 points: Decks can be created, edited, and deleted per the specifications above.
-
-- 12 points: Cards can be created, edited, sorted, and deleted per the specifications above.
-
-- 8 points: Quizzes can be run per the specifications above.
-
-- 8 points: Navigation between the different pages of the app works as specified above.
-
-- 4 points: Decks and cards can be loaded from the provided JSON file.
-
-- 16 points: Decks and cards are persisted correctly to a local database.
-
-- 8 points: The UI is responsive to changes in screen size.
-
-If your code does not compile, you will receive a zero for the assignment. If your code compiles but does not meet the requirements, you will receive partial credit based on the extent to which it does.
-
-## 5. Submission
-
-To submit your machine problem, commit and push your code to the "main" branch in your private GitHub repository shared with us. You can make as many commits and pushes as needed; we will assess the most recent version of your code pushed before the deadline.
-
-If you plan to use late submission days, remember to fill out and submit the late day form (found on the course website) before the deadline.
